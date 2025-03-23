@@ -29,14 +29,14 @@ jobs:
         run: npm run build
 
       # Debug
-    env: 
-      ACTIONS_STEP_DEBUG true
-      
+   # env: 
+   #   ACTIONS_STEP_DEBUG true
+
       # Deploy to GitHub Pages
-      #- name: Deploy to GitHub Pages
-       # uses: JamesIves/github-pages-deploy-action@v4.0.0
-       # with:
-       #   branch: gh-pages  # Branch where GitHub Pages will be published
-       #   folder: dist      # Folder to deploy (output of Vite build)
-       # env:
-        #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.0.0
+        with:
+          branch: gh-pages  # Branch where GitHub Pages will be published
+          folder: dist      # Folder to deploy (output of Vite build)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
