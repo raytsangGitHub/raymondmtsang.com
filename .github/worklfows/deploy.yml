@@ -28,6 +28,10 @@ jobs:
       - name: Build project
         run: npm run build
 
+      # Debug
+    env: 
+      ACTIONS_STEP_DEBUG true
+      
       # Deploy to GitHub Pages
       #- name: Deploy to GitHub Pages
        # uses: JamesIves/github-pages-deploy-action@v4.0.0
