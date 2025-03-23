@@ -2,7 +2,7 @@
 import React from 'react'; // React import for JSX support
 import { createRoot } from 'react-dom/client'
 import WebsiteLayout from './WebSiteLayout.jsx';
-import "./index.css";
+//import "./index.css";
 import "./App.css";
 //import "";
 
