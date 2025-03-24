@@ -1,5 +1,5 @@
 # Node.js modules
-# node_modules
+node_modules
 
 # Vite.js cache
 .Vite/
@@ -7,7 +7,6 @@
 # Dependency directories
 .pnpm-debug.log
 yarn-debug.log
-yarn-error.log
 
 # Logs
 logs
