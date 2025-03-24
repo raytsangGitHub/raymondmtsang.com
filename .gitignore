@@ -1,5 +1,5 @@
 # Node.js modules
-node_modules
+# node_modules
 
 # Vite.js cache
 .Vite/
@@ -19,8 +19,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Build outputs
-node_modules
-dist
 dist-ssr
 *.local
 
@@ -40,4 +38,4 @@ dist-ssr
 Thumbs.db
 
 # Environment variables (add any specific env files you want to ignore)
-.env*
+#.env*
