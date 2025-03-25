@@ -4,7 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { greeting, jsxElement, ChildrenPassing } from './JSX_Intro';
 import { WhatIsReactHook, StateHooks, ContextHooks } from './ReactHooks';
-//import { jsxElement } from './JSX_Intro';
+//import "./index.css";
 
 function MainContent()
 {

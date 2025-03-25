@@ -24,18 +24,12 @@ a:hover {
   color: #f25353;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+
 
 h1 {
   font-size: 2.2em;
   line-height: normal;
-  color:burlywood
+  color:black
 }
 
 button {

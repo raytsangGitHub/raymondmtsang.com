@@ -4,8 +4,8 @@ import React, { createContext, useContext, useState } from "react";
 function WhatIsReactHook()
 {
     return (
-        <>
-            <h2>What are Hooks in React</h2>
+        <div>
+            <h2 class="text-black">What are Hooks in React</h2>
             <ul>
                 <li>
                     React Hoods are function that allow function components:
@@ -21,7 +21,7 @@ function WhatIsReactHook()
                 <li>Reusability:</li>
                 <li>Readability:</li>
             </ul>
-        </>
+        </div>
     );
 }
 
@@ -40,7 +40,7 @@ function StateHooks()
     return (
         <div>
             <h2>Count: {count}</h2>  {/* Display the current count */}
-            <button onClick={increment}>Increment</button>
+            <button onClick={increment} class="text-white">Increment</button>
             <button onClick={decrement}>Decrement</button>
         </div>
     );
