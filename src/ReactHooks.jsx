@@ -4,8 +4,8 @@ import React, { createContext, useContext, useState } from "react";
 function WhatIsReactHook()
 {
     return (
-        <div>
-            <h2 class="text-black">What are Hooks in React</h2>
+        <div class="text-black">
+            <h2 >What are Hooks in React?</h2>
             <ul>
                 <li>
                     React Hoods are function that allow function components:
@@ -21,6 +21,9 @@ function WhatIsReactHook()
                 <li>Reusability:</li>
                 <li>Readability:</li>
             </ul>
+            <p> 
+                This paragraph is black color.
+            </p>
         </div>
     );
 }
